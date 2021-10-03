@@ -97,6 +97,12 @@ let someNum = myFavoriteNumbers[4];
 
 //Code Here
 
+if (myFavoriteNumbers.length < 7) {
+  console.log("There are not enough elements in this array");
+} else if (myFavoriteNumbers >= 7) {
+  someNum = myFavoriteNumbers[7];
+}
+
 ////////// PROBLEM 8 //////////
 
 // Do not edit the code below.
@@ -123,6 +129,10 @@ var letters = ["A", "B", "C", "D", "E"];
 */
 
 //Code Here
+
+for (let i = letters.length; i >= 0; i--) {
+  console.log(letters[i]);
+}
 
 ////////// Advanced Problems //////////
 
